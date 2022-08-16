@@ -1,0 +1,73 @@
+.to-do-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+button{
+    cursor: pointer;
+}
+
+input[type="text"]{
+    background-color: rgb(255, 255, 255);
+}
+
+#todo-liste{
+    display: flex;
+}
+.container{
+    flex: 1;
+    min-height: 500px;
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+}
+.headline{
+    font-size: 20px;
+    text-align: center;
+}
+
+.todosliste{
+    display: flex;
+    justify-content: space-between;
+    margin: 6px 24px 6px 24px;
+}
+.p{
+    flex: 3;
+}
+.p2, .delete{
+    flex: 1;
+}
+.p, .p2{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.container button{
+    background-color: orange;
+    border: none;
+    border-radius: 10px;
+}
+
+/*Input*/
+
+input[type=text]{
+    height: 26px;
+    width: 200px;
+    border: none;
+    border-bottom: 1px solid black;
+    background-color: #cf5c36;
+    margin: 0px 8px 0px 8px;
+}
+::placeholder{
+    color: black;
+    font-size: 14px;
+}
+
+/*Buttons*/
+.nextday, .add{
+    border: none;
+    border-radius: 6px;
+    background-color: #eee5e9;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 12px;
+}
